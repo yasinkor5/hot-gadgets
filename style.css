@@ -1,0 +1,36 @@
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #FF136F;
+    
+}
+.buy-now-button{
+    
+    background-image: linear-gradient(to bottom, #FF5898  0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+.orange-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.categories h1{
+    color: white;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px lightgray;
+}
+.card-footer{
+    background-color:white;
+    border-top: none;
+  
+    
+}
+.sea-button{
+    color: red;
+}
