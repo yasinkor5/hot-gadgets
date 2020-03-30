@@ -1,3 +1,5 @@
+
+
 .carousel-item{
     padding: 20px 40px;
 }
@@ -24,6 +26,7 @@
     border: none;
     border-radius: 10px;
     box-shadow: 5px 5px lightgray;
+    margin: 10px;
 }
 .card-footer{
     background-color:white;
@@ -33,4 +36,16 @@
 }
 .sea-button{
     color: red;
+}
+.underline{
+    display: inline-flex;
+    position: relative;
+}
+.underline::after{
+    content: '';
+    height: 5px;
+    width: 100%;
+    background-color: orange;
+    position: absolute;
+    bottom: -20%;
 }
